@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resim Pop-Up</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+        .image {
+            max-width: 100%;
+            cursor: pointer;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1000;
+        }
+        .popup img {
+            max-width: 300%;
+            max-height: 300%;
+        }
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 999;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="image-container">
+    <img src="your-image.jpg" alt="Example Image" class="image" onclick="showPopup()">
+</div>
+
+<div class="overlay" onclick="hidePopup()"></div>
+
+<div class="popup">
+    <img src="your-image.jpg" alt="Example Image">
+</div>
+
+<script>
+    function showPopup() {
+        document.querySelector('.popup').style.display = 'block';
+        document.querySelector('.overlay').style.display = 'block';
+    }
+
+    function hidePopup() {
+        document.querySelector('.popup').style.display = 'none';
+        document.querySelector('.overlay').style.display = 'none';
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+@media (max-width: 1600px) {
+    .righht-header {
+        display: none;
+    }
+
+
+
+    .header {
+        z-index: 4;
+    }
+    .menu-button {
+        display: block;
+        transition: ease-in-out 1s;
+    }
+    .heador-respons {
+        visibility: visible;
+    }
+
+    .left-header {
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .menu-button {
+        margin-top: 1%;
+        margin-left: 4%;
+    }
+    .contackt-wp {
+        position: fixed;
+        left: 90%;
+    }
+    .services {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    .hizmetler {
+        width: 100%;
+        height: 50%;
+        margin-top: 0.5%;
+    }
+    .hizmetler:hover {
+        transform: none;
+    }
+    .img-services:hover {
+    }
+    .ne-saglioruz {
+        flex-direction: column;
+    }
+
+    .xidmet-services {
+        width: 49.9%;
+    }
+    .form-foto {
+        display: none;
+    }
+    .forum {
+        width: 100%;
+    }
+    .mid-png {
+        display: none;
+    }
+    .mid-text {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: ease-in-out 0.3s;
+    }
+    .text-services {
+        width: 80%;
+    }
+    .s-text1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .s-text2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hr1 {
+        margin: auto;
+    }
+    .s-text3 {
+        margin: auto;
+    }
+    .qalerya-sekiller {
+        display: flex;
+    }
+    .fito {
+        width: 50%;
+    }
+    .mobilya-up {
+        display: flex;
+    }
+    .panel-foto {
+        display: none;
+    }
+    .mob-panel {
+        width: 100%;
+    }
+    .mob-img {
+        visibility: hidden;
+    }
+    .mob-repo {
+        width: 100%;
+        background-image: url("mutfak.jpeg");
+        image-rendering: auto;
+        background-size: cover;
+    }
+    .slider {
+        height: 60%;
+    }
+    .zoom-zoom {
+        width: 100%;
+    }
+    .footer-text {
+        font-size: 10px;
+        font-weight: lighter;
+    }
+    .item {
+        height: 55vh;
+    }
+    .esas {
+        height: 56vh;
+    }
+    .sliders{
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .slider{
+        height: 100%;
+        overflow: hidden;
+    }
+    .slider-mid{
+        height: 130px;
+        overflow: hidden;
+    }
+    .slider-full{
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .footer-middle{
+        height: 400px;
+    }
+
+
+    .progress-bar{
+        /*background-color: transparent;*/
+        position: relative;
+        bottom: 20px;
+    }
+    .owl-dots{
+       display: none;
+    }
+
+.blur{
+    height: 53vh;
+    width: 100%;
+}
+.scl{
+    width: 70%;
+}
+
+}
